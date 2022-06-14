@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Adocica Doceria & Café</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width;initial-scale=1.0">
+        <meta name="Vitória Ferreira Sanches">
+        <meta name="description" content="Aceitamos encomendas, bolos para café, bolos recheados, cupcake">
+        <meta name="keywords" content="bolo decorado, doceria em Caraguatatuba, doces para festa">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+            </style>
+    </head>
+    <body>
+
+        <!--Menu-->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/Adocica-logo (sem fundo).png">
+                </div>
+
+                <nav class="menu-desk">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                        <li class="selected"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="menu-mobile">
+                <h2><span class="material-icons">reorder</span></h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        </header>
+
+        <!--Ttulo da página-->
+        <section class="title-page" style="background-image: url(img/imgcontato.jpg);">
+            <div class="container">
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+                    </style>
+                <h2>Faça seu pedido</h2>
+            </div>
+        </section>
+
+        <!--Formulário-->
+        <section class="contato">
+            <div class="container">
+                <div class="w60 formulario">
+                    <h2>Faça seu pedido</h2>
+
+                    <form method="post">
+                        <div class="w50">
+                            <input placeholder="Digite o seu nome" type="text" required>
+                        </div>
+
+                        <div class="w50">
+                            <input placeholder="Digite o seu sobrenome" type="text" required>
+                        </div>
+
+                        <div class="w100">
+                            <input placeholder="Digite o seu email" type="email" required>
+                        </div>
+
+                        <div class="w100">
+                           <textarea placeholder="Seu pedido"></textarea>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="w40 tags-form">
+                    <h2><i class="material-icons">sms_failed</i>Fale com a nossa equipe</h2>
+
+                    <p>Platea erat maecenas iaculis tincidunt sapien hac metus, sagittis class neque lacinia nulla consectetur placerat potenti.</p>
+
+                    <p class="tag-contato"><i class="material-icons">notifications</i>Sugestões</p>
+                    <p class="tag-contato"><i class="material-icons">notifications</i>Dúvidas</p>
+                    <p class="tag-contato"><i class="material-icons">notifications</i>Reclamações</p>
+                </div>
+                <div class="clear">
+            </div>
+            
+        </section>
+
+        <!--Rodapé-->
+    <footer class="footer1">
+        <div class="container">
+            <div class="w33">
+                <h2>Localização</h2>
+
+            <div class="containerIframe1"> 
+              <iframe class="responsive-iframe" width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Bahia,%201739%20-%20Indai%C3%A1,%20Caraguatatuba%20-%20SP,%2011665-071&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:200px;width:350px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:350px;}</style>
+            </div>
+            </div>
+
+            <div class="w33">
+                <h2>Links Úteis</h2>
+                <a href="https://www.becamilano.com.br/">Site Beca Milano</a>
+                <a href=""></a>
+                <br>
+                <a href="https://www.escoladeconfeitaria.com.br/">Site Diego Lozano</a>
+            </div>
+            
+            <div class="w33">
+                <h2>Nossas Redes Sociais</h2>
+                <div class="group-icons">
+                    <a href="#"><span class="material-icons">people</span></a>
+                    <a href="#"><span class="material-icons">sentiment_satisfied</span></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+    <footer>
+        <footer class="footer2">
+            <div class="container">
+                <p>Vitória Ferreira Sanches ©2021 - Todos os direitos reservados</p>
+            </div>
+
+    </footer>
+
+    <script src="js/jquery-3.6.0.js"></script>
+
+    <script>
+        $('.menu-mobile h2').click(function() {
+            $('.menu-mobile ul').slideToggle();
+        })
+    </script>
+ </body>
+</html> 
